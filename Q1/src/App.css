@@ -1,0 +1,36 @@
+.App{
+  padding: 1em;
+}
+.box1{
+  width: 200px;
+  height:100vh;
+  border: 1px solid black;
+}
+.box3{
+  width: 300px;
+  height:100vh;
+  border: 1px solid black;
+}
+.box-middle{
+  border-style: solid;
+  height:100vh;
+  width: 100%;
+  min-width: 100px;
+  border-width: 1px 0px 1px 0px;
+  overflow: auto;
+}
+.text-box{
+  margin-top: -2px;
+}
+.text-box2{
+  margin-top: -3px;
+  width: 260px;
+}
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.test{
+  display: flex;
+  justify-content: space-between;
+}
